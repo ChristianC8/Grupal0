@@ -21,3 +21,13 @@ function segundosAMilisegundos() {
 };
 
 segundosAMilisegundos()
+
+function horaADia(){
+  let hor = document.getElementById("hora").value;
+  let dia = hor / 24;
+  document.getElementById("resultado2").innerHTML = "resultado : " + dia;
+
+
+
+}
+horaADia();
