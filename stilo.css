@@ -3,7 +3,11 @@ body{
     text-align: center;
     background-image: url("https://media.giphy.com/media/474MaOHaHXyla/giphy.gif");
 }
-
+h1{
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: 'impact';
+}
 
 div{
     padding-top: 200px;

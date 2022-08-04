@@ -13,3 +13,11 @@ function minutoAhora() {
   document.getElementById("resultado3").innerHTML = "resultado : " + hora;
 }
 minutoAhora();
+
+function segundosAMilisegundos() {
+  let seg = document.getElementById("segundo1").value;
+  let resultadoMilisegundos = seg / 1000;
+  document.getElementById("resultadoSegundosAMilisegundos").innerHTML = "Resultado : " + resultadoMilisegundos;
+};
+
+segundosAMilisegundos()
