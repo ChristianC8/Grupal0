@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(240, 227, 212);
+    text-align: center;
+    background-image: url("https://media.giphy.com/media/474MaOHaHXyla/giphy.gif");
+}
+
+
+div{
+    padding-top: 200px;
+}
+
+button{
+
+    border: none;
+    color: none;
+    text-decoration: none;
+    display: inline-block;
+}
+button:hover{
+    background-color: rgb(147, 182, 182);
+    color: white;
+}
+p{
+    background-color: rgba(255, 255, 255, 0.712);
+    width: max-content;
+    margin: auto;
+
+
+}
